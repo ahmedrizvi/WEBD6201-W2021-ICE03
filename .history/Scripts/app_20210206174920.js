@@ -154,6 +154,7 @@
     }
 
      
+
     function Start()
     {
         console.log("App Started...");
@@ -179,6 +180,7 @@
             displayContactList();
           break;
         }
+        
     }
 
     window.addEventListener("load", Start);

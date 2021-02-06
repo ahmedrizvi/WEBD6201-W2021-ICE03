@@ -138,7 +138,7 @@
         {
           let contactData = localStorage.getItem((index + 1).toString());
 
-          let contact = new core.Contact();
+          let contact = new Contact();
           contact.deserialize(contactData);
 
           data += `<tr>
@@ -154,6 +154,7 @@
     }
 
      
+
     function Start()
     {
         console.log("App Started...");
@@ -179,6 +180,7 @@
             displayContactList();
           break;
         }
+        
     }
 
     window.addEventListener("load", Start);

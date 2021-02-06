@@ -179,6 +179,7 @@
             displayContactList();
           break;
         }
+        
     }
 
     window.addEventListener("load", Start);
